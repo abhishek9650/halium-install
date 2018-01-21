@@ -22,7 +22,7 @@ Download TWRP:
 `halium-tool twrp $device`
 
 Install a halium rootfs and systemimage:
-`halium-tool install <rootfs.tar.gz> <system.img> <mode (halium, pm, none)>`
+`halium-tool install <rootfs.tar.gz> <system.img> <mode (halium, pm, ut, none)>`
 
 Connect to the device:
 `halium-tool connect -p $protocol -u $username`
